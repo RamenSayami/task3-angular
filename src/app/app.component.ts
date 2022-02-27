@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  constructor(){}
+
   title = 'task3-app';
+  emailStr = 'asd';
+
+  public subscribe() {
+    console.log(this.emailStr);
+  }
 }
